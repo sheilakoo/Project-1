@@ -6,13 +6,13 @@ A research that investigates the impact of rainy days on road accidents and how 
 
 On a global scale, Singapore ranked fifth in the estimated road traffic death rate per 100,000 vehicles (OECD, 2019). 
 
-<img src= "Images/global_stats.jpg">
+<img src= "Images/global_stats.jpg" width="700" height="500">
 
 This ranking is alarming, considering Singapore's figure is much higher than that of geographically enormous countries like the USA, Canada and Australia. 
 
 Within Singapore, 50% of overall road fatalities are motorcyclists and pillion riders, and 50% of pedestrian fatalities are the elderly. 
 
-<img src= "Images/national_stats.jpg">
+<img src= "Images/national_stats.jpg" width="1000" height="700">
 
 These statistics emphasize the urgent need for Singapore to address road safety comprehensively.
 
