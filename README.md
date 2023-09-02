@@ -44,7 +44,7 @@ As a leader in the climate research space, *DSI 39* spearheaded this research to
 
 
 ### Data Sources
-To investigate the correlation between rainy days and road accidents, we utilized the following datasets:
+To investigate the correlation between rainy days and road accidents, we utilized the following datasets (click on the hyperlinks to access):
 
 #### <a href= "Data sources/raindays_by_mth.csv"> Number of Rainy Days per Month (Jan 2010 - Dec 2019) </a>
 
@@ -101,7 +101,7 @@ For a more accurate research, this outlier was removed in the following analyses
 
 ### Section 3: The vehicle types that are more prone to road accidents
 
-<img src= "Images/casualties_by_vehicle_type.jpg">
+<img src= "Images/casualties_by_vehicle_type.jpg" width="500" height="400">
 
 #### Observations
 In this bar graph, the top three vehicle types that had apparently higher number of casualties were:
