@@ -16,6 +16,7 @@ Within Singapore, 50% of overall road fatalities are motorcyclists and pillion r
 
 These statistics emphasize the urgent need for Singapore to address road safety comprehensively.
 
+Images/rainydays_vs_fatalities.jpg
 
 ### Problem Statement
 
