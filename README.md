@@ -4,9 +4,33 @@ A research that investigates the impact of rainy days on road accidents and how 
 
 ### Introduction
 
-According to a 2019 research study by the OECD, Singapore ranked fifth globally in the estimated road traffic death rate per 100,000 vehicles. This ranking is alarming, considering Singapore has a smaller number of vehicles compared to larger countries like the United States, Canada, and Australia. Notably, 1 in 2 of all road fatalities in Singapore are motorcyclists and pillion riders, and 50% of pedestrian fatalities are elderly individuals. These statistics emphasize the urgent need for Singapore to address road safety comprehensively.
+On a global scale, Singapore ranked fifth in the estimated road traffic death rate per 100,000 vehicles (OECD, 2019). 
 
-This research project explores the relationship between rainy days and the number of road accident casualties, aiming to propose effective road safety measures to relevant non-governmental organizations (NGOs).
+<img source= "Images/global_stats.jpg">
+
+This ranking is alarming, considering Singapore's figure is much higher than that of geographically enormous countries like the USA, Canada and Australia. 
+
+Within Singapore, 50% of overall road fatalities are motorcyclists and pillion riders, and 50% of pedestrian fatalities are the elderly. 
+
+<img source= "Images/national_stats.jpg">
+
+These statistics emphasize the urgent need for Singapore to address road safety comprehensively.
+
+
+### Problem Statement
+
+Rainy weather can impede our navigation skills on the road, either due to reduced visibility or more slippery surfaces. 
+
+To what extent does weather play a part in road safety? How can we minimize road accidents stemmed from rainy weather?
+
+### Purpose
+
+As a leader in the climate research space, DSI 39 spearheaded this research to explore the relationship between rainy days and the number of road accident casualties. This research aims to discover:
+
+> * The effect of **rainy days** on the **number of road accident casualties** (correlation between number of rainy days vs casualties per month)
+> * Whether rainy weather **aggravates** road accidents (correlation between number of rainy days vs fatalities, number of rainy days vs injured per month)
+> * The **vehicle types** that are more prone to road accidents (rank number of casualties by vehicle types)
+
 
 ### Data Sources
 To investigate the correlation between rainy days and road accidents, we utilized the following datasets:
