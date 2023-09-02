@@ -58,4 +58,4 @@ Link to Dataset
 
 ### Outlier
 
-<img src= "Images/Outlier.jpg">
+<img src= "Images/outlier.jpg">
