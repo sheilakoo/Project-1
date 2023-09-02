@@ -1,4 +1,4 @@
-# ![] Rainy Days and Road Accident Casualties Analysis
+# Rainy Days and Road Accident Casualties Analysis
 
 A research that investigates the impact of rainy days on road accidents and how to minimize it
 
@@ -12,7 +12,7 @@ This ranking is alarming, considering Singapore's figure is much higher than tha
 
 Within Singapore, 50% of overall road fatalities are motorcyclists and pillion riders, and 50% of pedestrian fatalities are the elderly. 
 
-<img src= "Images/national_stats.jpg" width="800" height="400">
+<img src= "Images/national_stats.jpg" width="600" height="300">
 
 These statistics emphasize the urgent need for Singapore to address road safety comprehensively.
 
@@ -43,13 +43,13 @@ To investigate the correlation between rainy days and road accidents, we utilize
 
 #### Number of Rainy Days per Month (Jan 2010 - Dec 2019)
 
-<u><a href= "Data sources/raindays_by_mth.csv"> Link </a></u> to Dataset
+<u> <a href= "Data sources/raindays_by_mth.csv"> Link </a> </u> to Dataset
 
 * We chose to use the number of rainy days rather than the specific amount of rainfall because it provides a better indication of how road accidents may be affected by the frequency of rain.
 
 #### Number of Casualties: Fatalities and Injuries (Jan 2010 - Dec 2019)
 
-<u><a href= "Data sources/road_acc_by_mth.csv"> Link </a> </u> to Dataset
+<u> <a href= "Data sources/road_acc_by_mth.csv"> Link </a> </u> to Dataset
 
 * The total number of casualties (the sum of fatalities and injuries) was used as a relative measure of road accidents.
 
