@@ -89,7 +89,7 @@ For a more accurate research, this outlier was removed in the following analyses
 
 <img src= "Images/rainydays_vs_fatalities.jpg">
 
-<img src= "Images/rainydays_vs_injured.jpg" width="700" height="400">
+<img src= "Images/rainydays_vs_injured.jpg" width="1000" height="600">
 
 #### Observations
 
