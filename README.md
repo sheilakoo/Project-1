@@ -101,7 +101,7 @@ For a more accurate research, this outlier was removed in the following analyses
 
 ### Section 3: The vehicle types that are more prone to road accidents
 
-<img src= "Images/casualties_by_vehicle_type.jpg" width="500" height="400">
+<img src= "Images/casualties_by_vehicle_type.jpg" width="700" height="600">
 
 #### Observations
 In this bar graph, the top three vehicle types that had apparently higher number of casualties were:
