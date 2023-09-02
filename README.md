@@ -68,15 +68,19 @@ An outlier, Feb 2014, was spotted - this is backed by the Metereological Service
 
 For a more accurate research, this outlier was removed in the following analyses.
 
-### Number of Rainy Days vs Number of Casualties
+### Section 1: The effect of rainy days on the number of road accident casualties
+
+#### Number of Rainy Days vs Number of Casualties
 
 <img src= "Images/rainydays_vs_casualties.jpg">
 
 The correlation between the two variables increased to 0.72 after removing the outlier, indicating a strong correlation. 
 
-#### Observations
+##### Observations
 
-Ignoring months where the two variables moved in different directions (covered by the yellow boxes), Jan, Mar - May, were the months with high rainfall and high number of casualties (marked by the yellow stars). 
+* The correlation between the two variables increased to 0.72 after removing the outlier, indicating a strong correlation. 
 
-#### Deductions
+* Ignoring months where the two variables moved in different directions (covered by the yellow boxes), Jan, Mar - May, were the months with high rainfall and high number of casualties (marked by the yellow stars). 
+
+The next 
 
