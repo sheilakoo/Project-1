@@ -88,6 +88,7 @@ For a more accurate research, this outlier was removed in the following analyses
 ### Section 2: Does rainy weather aggravates road accidents?
 
 <img src= "Images/rainydays_vs_fatalities.jpg">
+
 <img src= "Images/rainydays_vs_injured.jpg">
 
 #### Observations
