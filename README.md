@@ -135,13 +135,13 @@ In this bar graph, the top three vehicle types that had apparently higher number
  
  ### Conclusion
  
- * Rainy days have a **significant impact** on the number of road accident casualties that result in **injuries but not fatalities**
+ * The correlation between the number of rainy days and total casualties was **0.72** (after removing the outlier, Feb 2014). This implies that rainy days have a **significant impact** on the number of road accident casualties.
  
- * Fatalities are likely affected by **other factors**, such as drink driving, failure to adhere to traffic rules, jaywalking etc (Motorist.sg, 2020).
+ * The correlation of rainy days vs fatalities and rainy days vs injured were -0.03 and 0.65 respectively. This shows that rainy days have a greater effect on **injuries but not fatalities**.
  
- * **Jan, Mar and Apr** consistently had high number of casualties with relatively high number of rainy days. Rainy days in these months are likely due to the Northeast Monsoon season (with Feb usually the exception being a drier month) (Meteorological Service Singapore, 2019). 
+ * Fatalities were likely affected by **other factors**, such as drink driving, failure to adhere to traffic rules, jaywalking etc (Motorist.sg, 2020).
  
- * Though articles on Singapore road accident causes stated only human error reasons (Direct Asia, 2022; Motorist.sg, 2018), **the strong correlation suggests that rainy weather might have elevated those human error and resulted in road accident injuries**.  
+ * **Jan, Mar and Apr** (Northeast Monsoon season with the exception of Feb being the dry period) consistently had high number of casualties with relatively high number of rainy days. Though articles on Singapore road accident causes stated only human error reasons (Direct Asia, 2022; Motorist.sg, 2018), **the strong correlation suggests that rainy weather might have elevated those human error and resulted in road accident injuries**.  
  
  * During the **Northeast Monsoon**, the respective **government organizations** should practise more stringent road safety measures tailored to **motorcyclists and pillion riders, motor cars and station wagons and pedestrians**
 
