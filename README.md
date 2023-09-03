@@ -99,13 +99,13 @@ The table below proposes some targeted road safety measures:
 <img src= "Images/recommendations.jpg">
 
 ### Limitations
-1. Accuracy of research
+**1. Accuracy of research**<br>
 	As this research uses an aggregated number of rainy days per month, there was no clear indication of which road accidents occurred on a rainy day. For a more accurate analysis, the total number of casualties on rainy days should be used.
 
-2. Limited analysis on other factors
+**2. Limited analysis on other factors**<br>
 	With a focus on analysing the impact of wet weather on road accidents, this research does not take into account other factors that could be the primary reason of road accidents. A seperate research looking into the common human errors should be conducted in order to implement more comprehensive road safety measures.
 
-3. Lack of geolocation data
+**3. Lack of geolocation data** <br>
 	There is a lack of updated geolocation data that illustrates areas in Singapore that are more susceptible to road accidents. This is another variable worth investigating into to refine those road safety measures.
 
 ### References
