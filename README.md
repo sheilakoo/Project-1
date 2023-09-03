@@ -81,11 +81,11 @@ To investigate the correlation between rainy days and road accidents, we utilize
  
  ### Conclusion
  
- * The correlation between the number of rainy days and total casualties was **0.72** (after removing the outlier, Feb 2014). This implies that rainy days have a **significant impact** on the number of road accident casualties.
+ * The correlation between the number of rainy days and total casualties was **0.73** (after removing the outlier, Feb 2014). This implies that rainy days have a **significant impact** on the number of road accident casualties.
  
- * The correlation of rainy days vs fatalities, and rainy days vs injured were -0.03 and 0.65 respectively. This shows that rainy days have a **greater effect on injuries but not fatalities**.
+ * The correlation of rainy days vs fatalities, and rainy days vs injured were 0.58 and 0.73 respectively. This shows that rainy days have a **greater effect on injuries but not fatalities**.
  
- * Fatalities were likely affected by **other factors**, such as drink driving, failure to adhere to traffic rules, jaywalking etc (Motorist.sg, 2020).
+ * Fatalities were less likely affected by **other factors**, such as drink driving, failure to adhere to traffic rules, jaywalking etc (Motorist.sg, 2020).
  
  * **Jan, Mar and Apr** (Northeast Monsoon season with the exception of Feb being the dry period) consistently had high number of casualties with relatively high number of rainy days. Though articles on Singapore road accident causes stated only human error reasons (Direct Asia, 2022; Motorist.sg, 2018), **the strong correlation suggests that rainy weather might have elevated those human error and resulted in road accident injuries**.  
  
