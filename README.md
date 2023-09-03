@@ -83,7 +83,7 @@ To investigate the correlation between rainy days and road accidents, we utilize
  
  * The correlation between the number of rainy days and total casualties was **0.72** (after removing the outlier, Feb 2014). This implies that rainy days have a **significant impact** on the number of road accident casualties.
  
- * The correlation of rainy days vs fatalities, and rainy days vs injured were -0.03 and 0.65 respectively. This shows that rainy days have a greater effect on **injuries but not fatalities**.
+ * The correlation of rainy days vs fatalities, and rainy days vs injured were -0.03 and 0.65 respectively. This shows that rainy days have a **greater effect on injuries but not fatalities**.
  
  * Fatalities were likely affected by **other factors**, such as drink driving, failure to adhere to traffic rules, jaywalking etc (Motorist.sg, 2020).
  
@@ -91,7 +91,7 @@ To investigate the correlation between rainy days and road accidents, we utilize
  
  * The top three vehicle types that had apparently higher number of casualties were **1. motorcyclists and pillion riders, 2. motor cars and station wagons and 3. pedestrians**.
  
- * During the **Northeast Monsoon**, the respective **government organizations** should practise more stringent road safety measures tailored to **motorcyclists and pillion riders, motor cars and station wagons and pedestrians**
+ * During the **Northeast Monsoon**, the respective **government organizations** should practise more stringent road safety measures tailored to **motorcyclists and pillion riders, motor cars and station wagons and pedestrians**.
 
 ### Recommendations
 The table below proposes some targeted road safety measures:
