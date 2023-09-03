@@ -38,25 +38,46 @@ As a leader in the climate research space, *DSI 39* spearheaded this research to
 ### Methodology
 
 * The research analysis spanned a ten-year period from January 2010 to December 2019.
-* Data sets were aggregated on a monthly basis over this ten-year period to mitigate the impact of irregular weather phenomena, such as the El Niño event in 2015-2016 and instances of intense rainfall/flooding in Jun 2010, Jan 2011, and Jan 2018.
+* Data sets were aggregated on a monthly basis over this ten-year period to neutralize the effect of irregular weather phenomena, such as the El Niño event in 2015-2016,  and instances of intense rainfall/flooding in Jun 2010, Jan 2011, and Jan 2018.
 * Data from 2020 onwards were excluded due to the effects of the COVID-19 pandemic.
 * Data related to Personal Mobile Devices (PMD) were excluded since PMDs came into existence in Singapore only from 2017 onwards.
 
 
-### Data Sources
+### Data sets used
 To investigate the correlation between rainy days and road accidents, we utilized the following datasets (click on the hyperlinks to access):
 
 #### <a href= "Data sources/raindays_by_mth.csv"> Number of Rainy Days per Month (Jan 2010 - Dec 2019) </a>
 
+* 121 rows, 2 columns; illustrates the no. of rainy days per month from Jan 2010 to Dec 2019
+
 * We chose to use the number of rainy days rather than the specific amount of rainfall because it provides a better indication of how road accidents may be affected by the frequency of rain.
 
 #### <a href= "Data sources/road_acc_by_mth.csv"> Number of Casualties: Fatalities and Injuries (Jan 2010 - Dec 2019) </a>
+
+* 120 rows, 29 columns; illustrates the no. of road accident casualties fatalities and injured, as well as a breakdown of those by vehicle type 
 
 * The total number of casualties (the sum of fatalities and injuries) was used as a relative measure of road accidents.
 
 * We also examined the total fatalities and total injuries to assess the severity of accidents.
 
 * To identify which vehicle types are more susceptible to road accidents, we tabulated the total number of casualties across each vehicle type.
+
+### Data dictionary
+|Feature|Type|Dataset|Description|
+|---|---|---|---|
+|total_rainfall|float|rainfall-monthly-total|Total rainfall in mm|
+|date|object|raindays_by_mth & road_acc_by_mth|Date in YYYY-MM format|
+|yr|integer|raindays_by_mth & road_acc_by_mth|Year in YYYY format|
+|mth|integer|raindays_by_mth & road_acc_by_mth|Month in MM format|
+|rain_days|integer|raindays_by_mth|No. of rainy days in a month|
+|log_raindays|float|raindays_by_mth|Log (base-10) of rain_days|
+|total_deaths|integer|road_acc_by_mth|Total road accident casualties fatalities|
+|total_injured|integer|road_acc_by_mth|Total road accident casualties injured|
+|total_cas|integer|road_acc_by_mth|Sum of total_deaths and total_injured|
+|log_deaths|float|road_acc_by_mth|Log (base-10) of total_deaths|
+|log_injured|float|road_acc_by_mth|Log (base-10) of total_injured|
+|log_cas|float|road_acc_by_mth|Log (base-10) of total_cas|
+|buses, cyclists_&_ pillions, goods_vans, lorries, motor_cars_and_station_wagons, motor_cyclists_&_ pillion_riders, pedestrians, pick_ups, tipper_trucks, trailers, others|integer|road_acc_by_mth|Number of casualties of the respective vehicle type|
 
 
 ### Outlier
@@ -118,11 +139,11 @@ In this bar graph, the top three vehicle types that had apparently higher number
  
  * Fatalities are likely affected by **other factors**, such as drink driving, failure to adhere to traffic rules, jaywalking etc (Motorist.sg, 2020).
  
- * **Jan, Mar and Apr** consistently had high number of casualties with relatively high number of rainy days. Rainy days in these months are likely due to the annual monsoon season (with Feb usually the exception being a drier month) (Meteorological Service Singapore, 2019). 
+ * **Jan, Mar and Apr** consistently had high number of casualties with relatively high number of rainy days. Rainy days in these months are likely due to the Northeast Monsoon season (with Feb usually the exception being a drier month) (Meteorological Service Singapore, 2019). 
  
  * Though articles on Singapore road accident causes stated only human error reasons (Direct Asia, 2022; Motorist.sg, 2018), **the strong correlation suggests that rainy weather might have elevated those human error and resulted in road accident injuries**.  
  
- * During the **monsoon season**, the respective **government organizations** should practise more stringent road safety measures tailored to **motorcyclists and pillion riders, motor cars and station wagons and pedestrians**
+ * During the **Northeast Monsoon**, the respective **government organizations** should practise more stringent road safety measures tailored to **motorcyclists and pillion riders, motor cars and station wagons and pedestrians**
 
 ### Recommendations
 The table below proposes some targeted road safety measures:
