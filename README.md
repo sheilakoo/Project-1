@@ -78,70 +78,18 @@ To investigate the correlation between rainy days and road accidents, we utilize
 |log_injured|float|road_acc_by_mth|Log (base-10) of total_injured|
 |log_cas|float|road_acc_by_mth|Log (base-10) of total_cas|
 |buses, cyclists_&_ pillions, goods_vans, lorries, motor_cars_and_station_wagons, motor_cyclists_&_ pillion_riders, pedestrians, pick_ups, tipper_trucks, trailers, others|integer|road_acc_by_mth|Number of casualties of the respective vehicle type|
-
-
-### Outlier
-
-Before diving into a proper analysis, a scatter plot was created to get a quick glance at the relationship between the number of rainy days and the number of casualties.
-
-<img src= "Images/outlier.jpg">
-
-Despite fairly dispersed data points, there is a **noticeable positive upward trend** between the two variables with a **correlation of 0.65**. 
-
-An outlier, Feb 2014, was spotted - this is backed by the Metereological Service Singapore that reported "no rainfall from 16 January to 7 February 2014".
-
-For a more accurate research, this outlier was removed in the following analyses.
-
-
-### Section 1: The effect of rainy days on the number of road accident casualties
-
-#### Number of Rainy Days vs Number of Casualties
-
-<img src= "Images/rainydays_vs_casualties.jpg">
-
-##### Observations
-
-* The correlation between the two variables **increased to 0.72** after removing the outlier, indicating a **strong correlation**.  
-
-* Ignoring months where the two variables moved in different directions (covered by the yellow boxes), Jan, Mar - May, were the months with high rainfall and high number of casualties (marked by the yellow stars). 
-
-
-### Section 2: Does rainy weather aggravates road accidents?
-
-<img src= "Images/rainydays_vs_fatalities.jpg">
-
-<img src= "Images/rainydays_vs_injured.jpg" width="1000" height="450">
-
-#### Observations
-
-* The correlation between the number of rainy days and the number of fatalities is -0.03, which is extremely low.
-
-* In contrast, the correlation between the number of rainy days and the number of injured is 0.65, which is moderately high.
-
-* It appears that most casualties were injured in the months with comparatively high number of rainy days, while fatalities were likely related to other reasons. 
-
-
-### Section 3: The vehicle types that are more prone to road accidents
-
-<img src= "Images/casualties_by_vehicle_type.jpg" width="700" height="550">
-
-#### Observations
-In this bar graph, the top three vehicle types that had apparently higher number of casualties were:
-
- 1. Motorcyclists and pillion riders
- 2. Motor cars and station wagons
- 3. Pedestrians
- 
  
  ### Conclusion
  
  * The correlation between the number of rainy days and total casualties was **0.72** (after removing the outlier, Feb 2014). This implies that rainy days have a **significant impact** on the number of road accident casualties.
  
- * The correlation of rainy days vs fatalities and rainy days vs injured were -0.03 and 0.65 respectively. This shows that rainy days have a greater effect on **injuries but not fatalities**.
+ * The correlation of rainy days vs fatalities, and rainy days vs injured were -0.03 and 0.65 respectively. This shows that rainy days have a greater effect on **injuries but not fatalities**.
  
  * Fatalities were likely affected by **other factors**, such as drink driving, failure to adhere to traffic rules, jaywalking etc (Motorist.sg, 2020).
  
  * **Jan, Mar and Apr** (Northeast Monsoon season with the exception of Feb being the dry period) consistently had high number of casualties with relatively high number of rainy days. Though articles on Singapore road accident causes stated only human error reasons (Direct Asia, 2022; Motorist.sg, 2018), **the strong correlation suggests that rainy weather might have elevated those human error and resulted in road accident injuries**.  
+ 
+ * The top three vehicle types that had apparently higher number of casualties were **1. motorcyclists and pillion riders, 2. motor cars and station wagons and 3. pedestrians**.
  
  * During the **Northeast Monsoon**, the respective **government organizations** should practise more stringent road safety measures tailored to **motorcyclists and pillion riders, motor cars and station wagons and pedestrians**
 
